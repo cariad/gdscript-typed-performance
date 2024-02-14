@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://baxbbuanjeat3"]
+
+[ext_resource type="Script" path="res://root.gd" id="1_ygaao"]
+
+[sub_resource type="SystemFont" id="SystemFont_24qui"]
+font_names = PackedStringArray("Monospace")
+
+[node name="Root" type="Node2D"]
+script = ExtResource("1_ygaao")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 1.0
+offset_bottom = 39.0
+theme_override_fonts/font = SubResource("SystemFont_24qui")
+theme_override_font_sizes/font_size = 100
